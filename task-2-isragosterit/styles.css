@@ -1,0 +1,88 @@
+body{
+    background-color: #555b6e;
+    color: #f0f8ff;
+    font-family: 'Overpass', sans-serif;
+}
+.input-container{
+  text-align: center;
+  margin: 12px;
+}
+.search-icon{
+  color: #ffd6ba;
+  justify-content: center;
+  padding: 1px 2px;
+}
+input{
+  padding: 12px 6px;
+  border-radius: 12px;
+  width: 45%;
+  border: none;
+  font-family: inherit;
+}
+.post-item {
+  margin: 1% 12%;
+  border: 0.5px solid #faf9f9;
+  border-radius: 12px;
+  padding: 15px 15px;
+  list-style-type: none;
+}
+#post-list{
+  padding-top: 20px;
+  padding-left: 0%;
+}
+.post-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+.post-body {
+  font-size: 16px;
+}
+/* icon styles */
+.delete-icon {
+  color: #e5989b;
+  cursor: pointer;
+}
+i{
+  color: #79bbc8;
+  cursor: pointer;
+  margin: 1px 10px !important;
+}
+/* styles of modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modal-content {
+  background-color: #6f868e;
+  margin: 15% auto;
+  padding: 30px;
+  border: none;
+  border-radius: 12px;
+  width: 80%;
+}
+.close {
+  color: #79bbc8;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #C74C34;
+  cursor: pointer;
+}
+@media only screen and (max-width: 800px) {
+  .post-item {
+    margin: 1% auto;
+  }
+  .delete-icon {
+    margin-right: 20px !important;
+  }
+}
